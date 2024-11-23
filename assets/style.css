@@ -16,6 +16,10 @@
     background-color: rgb(251, 167, 176);
 }
 
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
 /* some new custom classes */
 @media (max-width: 768px) {
     .fixed-custom-md-bottom {
