@@ -13,11 +13,29 @@
 }
 
 .bg-light-danger {
-    background-color: rgb(251, 167, 176);
+    background-color: rgb(251, 167, 176) !important;
+}
+
+.border-light-danger {
+  --bs-border-opacity: 1;
+    border-color: rgb(242, 138, 148) !important;
 }
 
 .selector-for-some-widget {
     box-sizing: content-box;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.mw-500 {
+    min-width: 250px;
+    width: 400px;
+}
+
+.custon-box-shadow {
+    box-shadow: 10px 10px 10px lightgray;
 }
 
 /* some new custom classes */
