@@ -20,16 +20,28 @@
     <main class="container d-flex justify-content-center align-items-center mt-5 px-4" id="formLogin">
         <div class="border border-light-danger mt-5 p-4 rounded-3 mw-500 custon-box-shadow mb-5">
             <div class="text-center">
-                <span class="fs-4 text"><strong>Fazer login</strong></span>
+                <span class="fs-4 text"><strong>Cadastrar</strong></span>
             </div>
-            <form method="get">
+            <form>
                 <div class="mb-3">
-                    <label for="userName" class="form-label">Usuário:</label>
+                    <label for="name" class="form-label">Nome completo:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="userName" class="form-label">Nome de usuário:</label>
                     <input type="text" class="form-control" id="userName">
+                </div>
+                <div class="mb-3">
+                    <label for="userName" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="userName" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Senha:</label>
                     <input type="password" class="form-control" id="password">
+                </div>
+                <div class="mb-3">
+                    <label for="passwordAgain" class="form-label">Repita sua senha:</label>
+                    <input type="password" class="form-control" id="passwordAgain">
                 </div>
                 <button type="submit" class="btn btn-primary">Entrar</button>
             </form>

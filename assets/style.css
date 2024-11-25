@@ -17,8 +17,8 @@
 }
 
 .border-light-danger {
-  --bs-border-opacity: 1;
-    border-color: rgb(242, 138, 148) !important;
+    --bs-border-opacity: 1;
+    border-color: rgb(250, 204, 209) !important;
 }
 
 .selector-for-some-widget {
@@ -35,7 +35,7 @@
 }
 
 .custon-box-shadow {
-    box-shadow: 10px 10px 10px lightgray;
+    box-shadow: 10px 10px 10px rgb(196, 171, 173);
 }
 
 /* some new custom classes */
